@@ -29,7 +29,7 @@ const data = [
 
 <template>
   <div class="w-full h-full">
-    <div class="relative border-b border-divider text-base px-4 pb-1 pt-6">
+    <div class="relative border-b border-divider text-base px-4 pb-2 pt-6">
       <div>
         <h2>Subham Singh</h2>
         <p class="text-contentgray text-sm font-inter-medium">Creamed Web</p>
@@ -38,19 +38,19 @@ const data = [
         <img src="/images/nav_hero.svg" class="w-[110px]" alt="hero icon" />
       </div>
     </div>
-    <div class="px-6 pb-3 pt-10 flex items-center gap-3 border-divider border-b">
+    <div class="px-7 pb-3 pt-10 flex items-center gap-3 border-divider border-b">
       <div
         class="rounded-full border-[2px] border-[#B2CE63] w-[16px] h-[16px] p-[2.5px]"
       >
         <div class="bg-[#B2CE63] w-full h-full rounded-full"></div>
       </div>
       <div class="text-base">
-        <p>Availiable <span class="text-contentgray">/ Q1 2024</span></p>
+        <p>Availiable  <span class="text-contentgray">  / Q1 2024</span></p>
       </div>
     </div>
     <div class="flex flex-col justify-between p-2 py-8">
       <div>
-        <ul class="flex flex-col gap-2">
+        <ul class="flex flex-col gap-1">
           <li class="" v-for="item in data">
             <SidebarNavigationLink
               :title="item.title"
