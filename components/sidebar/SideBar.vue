@@ -35,9 +35,19 @@ const data = [
 
 <template>
 
-<div class="w-full h-full ">
-    <div></div>
-    <div class="flex flex-col justify-between py-3">
+<div class="w-full h-full  ">
+    <div class=" relative border-b-2 border-divider text-base px-4 pb-1 pt-6">
+
+<div>
+    <h2>Subham Singh</h2>
+    <p class=" text-contentgray">Creamed Web</p>
+</div>
+<div class="absolute bottom-0 right-0">
+    <img src="/images/nav_hero.svg" class=" w-[110px] "  alt="hero icon">
+</div>
+
+    </div>
+    <div class="flex flex-col justify-between p-2">
 <div>
     <ul class="flex flex-col gap-2">
         <li class="" v-for="item in data">

@@ -6,7 +6,7 @@ console.log("im logged");
 
 <template>
   <main class="flex w-full h-screen overflow-hidden">
-    <div class=" sidebar bg-sidebar p-2 border-r border-[#141414]">
+    <div class=" sidebar bg-sidebar border-r border-[#141414]">
       
       <SidebarSideBar />
     </div>
