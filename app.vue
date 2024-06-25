@@ -1,6 +1,7 @@
 <script setup>
 
 import "~/assets/styles/globals.css";
+console.log("im logged");
 </script>
 
 <template>
